@@ -1,0 +1,109 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+.social-links{
+  justify-content: space-between;
+}
+.social-links a{
+  font-size: 20px;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.navbar-nav li:hover{
+  color: #20c997 !important;
+}
+.social-links a:hover{
+  color: white !important;
+}
+h3{
+  cursor: pointer;
+}
+img{
+  filter: grayscale(100%);
+  transition: all .4s ease;
+}
+.footer a{
+  text-decoration: none; 
+}
+img:hover{
+  filter:grayscale(0%);
+  transform: scale(1.1);
+}
+.nehal{
+  position: relative;
+  overflow: hidden;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all .4s ease;
+  transform: translate(-50%,-50%);
+}
+.content p{
+  color: white;
+  font-size: 30px;
+}
+.images{
+  overflow: hidden;
+  position: relative;
+}
+.images p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #777;
+}
+.team-member{
+  position: relative;
+  overflow: hidden;
+}
+.team-member img{
+  border-radius: 100%;
+  align-items: center;
+}
+.word p{
+  color: #777;
+}
+.social-links2 a{
+  font-size: 20px;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.social-links2 a:hover{
+  color: #20c997 !important;
+}
+.form-group input,textarea{
+  outline: none;
+  border-radius: 0;
+  background: transparent !important;
+  border-color: 1px solid #777;
+  color: #fff!important;
+}
+.form-group input :hover{
+  border-color: 1px solid #20c997;
+}
+input:focus{
+  border-color: 1px solid #20c997;
+}
+.btn {
+  background-color: #20c997 !important;
+  border: none !important;
+}
+.add p{
+  color: #777;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div2 a{
+  text-decoration: none;
+  color: #20c997;
+}
+.div2 a:hover{
+  color: #20c997;
+}
+.card{
+  background: #262626 !important;
+  justify-content: space-between;
+}
+.dollar{
+  color: #20c997;
+}
